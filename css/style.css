@@ -591,24 +591,6 @@ small {
 
 }
 
-.signature{
-
-    width:150px;
-
-    display:block;
-
-    margin:15px auto;
-
-    mix-blend-mode:multiply;
-
-    opacity:0;
-
-    animation: signAppear 1.5s ease forwards;
-
-    animation-delay:5s;
-
-}
-
 
 @keyframes signAppear{
 
@@ -658,5 +640,24 @@ small {
 .letter:active{
 
     transform:scale(.95);
+
+}
+
+.polaroid{
+    width:220px !important;
+    max-width:60% !important;
+    height:auto;
+    display:block;
+    margin:30px auto;
+    transform:rotate(2deg);
+    filter:drop-shadow(0 10px 15px rgba(0,0,0,.15));
+}
+
+@media(max-width:600px){
+
+    .polaroid{
+        width:180px !important;
+        max-width:60% !important;
+    }
 
 }
