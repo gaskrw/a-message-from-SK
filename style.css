@@ -644,10 +644,19 @@ small {
 }
 
 .polaroid{
-    width:280px;
-    max-width:80%;
+    width:260px;
+    max-width:70%;
+    height:auto;
     display:block;
     margin:30px auto;
     transform:rotate(2deg);
     filter:drop-shadow(0 10px 15px rgba(0,0,0,.15));
+}
+
+@media(max-width:600px){
+
+    .polaroid{
+        width:200px;
+    }
+
 }
