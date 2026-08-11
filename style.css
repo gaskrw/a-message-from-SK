@@ -644,11 +644,12 @@ small {
 }
 
 .polaroid{
-    width:260px;
-    max-width:70%;
-    height:auto;
     display:block;
-    margin:30px auto;
+    width:220px !important;
+    height:auto !important;
+    max-width:60% !important;
+    margin:35px auto;
+    object-fit:contain;
     transform:rotate(2deg);
     filter:drop-shadow(0 10px 15px rgba(0,0,0,.15));
 }
@@ -656,7 +657,8 @@ small {
 @media(max-width:600px){
 
     .polaroid{
-        width:200px;
+        width:180px !important;
+        max-width:60% !important;
     }
 
 }
