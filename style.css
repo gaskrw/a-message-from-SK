@@ -664,7 +664,7 @@ small {
 @media(max-width:600px){
 
     .polaroid{
-        width:210px !important;
+        width:220px !important;
         max-width:75% !important;
     }
 
