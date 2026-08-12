@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Torsilp";
+    src: url("../fonts/TorsilpKhitthuengSamoe.ttf") format("truetype");
+}
+
 body{
 
     margin:0;
@@ -324,9 +329,11 @@ small {
 
     text-align:left;
 
-    font-size:20px;
+    font-family:"Torsilp", sans-serif;
 
-    line-height:2;
+    font-size:30px;
+
+    line-height:1.8;
 
     margin-top:40px;
 
@@ -644,11 +651,12 @@ small {
 }
 
 .polaroid{
-    width:220px !important;
-    max-width:60% !important;
-    height:auto;
     display:block;
-    margin:30px auto;
+    width:220px !important;
+    height:auto !important;
+    max-width:60% !important;
+    margin:35px auto;
+    object-fit:contain;
     transform:rotate(2deg);
     filter:drop-shadow(0 10px 15px rgba(0,0,0,.15));
 }
@@ -657,7 +665,7 @@ small {
 
     .polaroid{
         width:180px !important;
-        max-width:60% !important;
+        max-width:70% !important;
     }
 
 }
