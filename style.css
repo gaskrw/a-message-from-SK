@@ -676,3 +676,13 @@ small {
     line-height:1.7;
     color:whitesmoke;
 }
+
+.home{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-sizing:border-box;
+    margin:0 auto;
+}
