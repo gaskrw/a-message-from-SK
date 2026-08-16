@@ -669,3 +669,10 @@ small {
     }
 
 }
+
+.menu-note{
+    margin-top:25px;
+    font-size:22px;
+    line-height:1.7;
+    color:whitesmoke;
+}
